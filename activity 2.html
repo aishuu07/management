@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      
+        .box
+        {
+          animation: 2s box;
+          margin-top: 100px;
+          height: 400px;
+          width : 300px;
+          background-color: aliceblue;
+          border: 2px;
+          box-shadow: 20px 20px  rgb(0, 0, 0);
+        }
+        .box:hover{
+          transform: skewX(10deg);
+          box-shadow: 10px 10px rgb(0, 0, 0) ;
+        }
+        body{
+          style="background-image: url(https://images.pexels.com/photos/3727146/pexels-photo-3727146.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)"   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+        }
+       
+        h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+        @keyframes box{
+          from 
+          {
+            margin-left: -100%;
+          }
+          to
+          {
+            margin-right: 0%;
+          }
+
+        }
+        #h
+        {
+          animation: 3s an ;
+        }
+        @keyframes an{
+          0%
+          {
+            opacity: 0%;
+          }
+          100%
+          {
+            opacity: 100%;
+          }
+        }
+    </style>
+  </head>
+  <body style="background-image: url(https://images.pexels.com/photos/3727146/pexels-photo-3727146.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)"  >
+    <center>
+  
+      <div class="box" class="an" >
+        <h1>Cultural Night</h1>
+        
+        <ul type="square" style="background-color: rgb(11, 32, 71); color: cornsilk;">
+          <li><b>mesmerising dance</b> </li>
+          <li><b>unlimited food</b> </li>
+          <li><b>rocking musics</b> </li>
+          <li><b>tabola</b></li>
+         
+      </ul>
+      <p>Date: 25.02.2030</p>
+       <p>venue: R.M.D Engineering college</p>
+       <sub align="down">power pack of enjoyment</sub>
+    </div>
+  </center>
+  
+  </body>
+</html>
